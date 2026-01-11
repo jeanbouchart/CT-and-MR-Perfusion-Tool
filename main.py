@@ -45,11 +45,11 @@ for root, dirs, files in os.walk(DATASET_PATH):
             ref_mtt_path = os.path.join(ref_perfusion_path, dir+"_ses-01_mtt.nii.gz")
             ref_ttp_path = os.path.join(ref_perfusion_path, dir+"_ses-01_ttp.nii.gz")
             ref_tmax_path = os.path.join(ref_perfusion_path, dir+"_ses-01_tmax.nii.gz")
-            gen_cbf_path = os.path.join(ref_perfusion_path, "generated_CBF.nii.gz")
-            gen_cbv_path = os.path.join(ref_perfusion_path, "generated_CBV.nii.gz")
-            gen_mtt_path = os.path.join(ref_perfusion_path, "generated_MTT.nii.gz")
-            gen_ttp_path = os.path.join(ref_perfusion_path, "generated_TTP.nii.gz")
-            gen_tmax_path = os.path.join(ref_perfusion_path, "generated_TMAX.nii.gz")
+            gen_cbf_path = os.path.join(ref_perfusion_path, "generated_cbf.nii.gz")
+            gen_cbv_path = os.path.join(ref_perfusion_path, "generated_cbv.nii.gz")
+            gen_mtt_path = os.path.join(ref_perfusion_path, "generated_mtt.nii.gz")
+            gen_ttp_path = os.path.join(ref_perfusion_path, "generated_ttp.nii.gz")
+            gen_tmax_path = os.path.join(ref_perfusion_path, "generated_tmax.nii.gz")
             mask_path = os.path.join(dir_path, "ses-01", "brain_mask.nii.gz")
 
             # Compare the generated perfusion maps with reference maps
